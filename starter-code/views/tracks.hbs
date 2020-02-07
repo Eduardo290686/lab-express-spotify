@@ -1,0 +1,14 @@
+<nav class='navigation'>
+  <a href="/home">
+    <div>home</div>
+  </a>
+</nav>
+<div class='container'>
+  {{#each album}}
+  <h3 class='track-name'>{{name}}</h3>
+  <audio controls='controls'>
+    <source src={{preview_url}} type="audio/mpeg" />
+    <source src={{preview_url}} type="audio/ogg" />
+  </audio>
+  {{/each}}
+</div>

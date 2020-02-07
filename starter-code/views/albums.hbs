@@ -1,0 +1,13 @@
+<nav class='navigation'>
+  <a href="/home">
+    <div>home</div>
+  </a>
+</nav>
+<div class='container'>
+  {{#each albums}}
+  <a href="/album/{{id}}">
+    <img src="{{images.0.url}}" />
+    <h3>{{name}}</h3>
+  </a>
+  {{/each}}
+</div>

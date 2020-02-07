@@ -1,12 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Spotify-API-practice</title>
+
+  <title>Express-Spotify</title>
+
+  <style>
+    /********************reset*********************/
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    ol,
+    ul {
+      list-style: none;
+    }
+
+    blockquote,
+    q {
+      quotes: none;
+    }
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    /*************************main******************************/
+
+    html {
+      font-size: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .coloured-container {
+      height: 100vh;
+      background: linear-gradient(45deg, rgb(231, 99, 172), rgb(221, 165, 10));
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /*****************************cover********************************/
+
+    .coloured-container h1 {
+      font-size: 2.5rem;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 5vh;
+      width: 20rem;
+      text-align: center;
+      line-height: 3rem;
+    }
+
+    .coloured-container a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    #cover-button {
+      background: rgb(174, 10, 189);
+      padding: 2rem 4rem;
+      border-radius: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+
+    /************************home**************************/
+
+    .coloured-container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2vh;
+      color: white;
+      font-weight: bold;
+      width: 20rem;
+      text-align: center;
+    }
+
+    .coloured-container form input {
+      width: 50vw;
+      font-size: 1.7rem;
+      padding: 0.2rem 0.5rem;
+    }
+
+    .coloured-container button {
+      font-size: 1.7rem;
+      padding: 0.2rem 0.5rem;
+    }
+
+    /*********************artists-album***********************/
+
+    .navigation {
+      background: linear-gradient(45deg, rgb(186, 224, 15), rgb(221, 94, 10));
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      padding: 2rem 3rem;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .navigation a {
+      text-decoration: none;
+    }
+
+    .navigation div {
+      padding: 1rem;
+      background: rgb(174, 10, 189);
+      color: white;
+      font-size: 1.7rem;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5rem;
+    }
+
+    .container a {
+      margin-bottom: 4rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .container img {
+      width: 20rem;
+      margin-bottom: 1rem;
+    }
+
+    .container h3 {
+      font-size: 1.7rem;
+      color: black;
+      text-align: center;
+    }
+
+    /******************tracks******************/
+
+    audio {
+      width: 26rem;
+      margin-top: 1rem;
+      margin-bottom: 4rem;
+    }
+  </style>
+
 </head>
+
 <body>
+
   {{{body}}}
+
 </body>
+
 </html>
